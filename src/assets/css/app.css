@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.men-main-picture {
+	background-image: url("../images/men-picture.jpg");
+	height: 740px;
+}
+
+.soccer-club {
+	background-image: url("../images/soccer-club.png");
+	height: 330px;
+}
+
+.basketball-club {
+	background-image: url("../images/basketball-club.png");
+	height: 330px;
+}
+
+.women-main-picture {
+	background-image: url(../images/women-picture1.jpg);
+	height: 740px;
+}
+.women-main-picture2 {
+	background-image: url(../images/women-picture2.jpg);
+	height: 740px;
+}
+
+.women-soccer-club {
+	background-image: url(../images/Women-soccer-img.png);
+	height: 330px;
+}
+.women-basketball-club {
+	background-image: url(../images/women-running-img.png);
+	height: 330px;
+}
+
+.Detail-content {
+	display: grid;
+	grid-template-columns: 1fr 4fr 4fr;
+}
+
+.Bag-Content {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+}
+
+.Explore-Content {
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+}
+.header {
+	display: unset;
+}
+
+.header-navbar {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+
+.translate-btnSlider {
+	transform: translateY(-80%);
+}

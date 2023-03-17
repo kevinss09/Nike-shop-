@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"icon": "icons/settings.png",
+		"title": "Best Quality Shoes",
+		"text": "I saw these and just had to get them. My Jordan Collection is becoming extensive out"
+	},
+	{
+		"id": 2,
+		"icon": "icons/price-tag.png",
+		"title": "Best Quality Price",
+		"text": "I saw these and just had to get them. My Jordan Collection is becoming extensive out"
+	},
+	{
+		"id": 3,
+		"icon": "icons/time-machine.png",
+		"title": "Long Lasting Shoes",
+		"text": "I saw these and just had to get them. My Jordan Collection is becoming extensive out"
+	},
+	{
+		"id": 4,
+		"icon": "icons/trainers.png",
+		"title": "Most Comfort Shoes",
+		"text": "I saw these and just had to get them. My Jordan Collection is becoming extensive out"
+	}
+]

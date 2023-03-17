@@ -1,0 +1,58 @@
+[
+	{
+		"id": 1,
+		"image": "shoes-carousel/Jordan1Acclimate.png",
+		"name": "NIKE AIR JORDAN 1 ACCLIMATE",
+		"gender": "Women's Shoes",
+		"price": "$190"
+	},
+	{
+		"id": 2,
+		"image": "shoes-carousel/Jordan1AcclimateChutney.png",
+		"name": "NIKE AIR JORDAN 1 ACCLIMATE CHUTNEY",
+		"gender": "Women's Shoes",
+		"price": "$210"
+	},
+	{
+		"id": 3,
+		"image": "shoes-carousel/Jordan1Elevatelow.png",
+		"name": "NIKE AIR JORDAN 1 ELEVATE LOW SE",
+		"gender": "Women's Shoes",
+		"price": "$185"
+	},
+	{
+		"id": 4,
+		"image": "shoes-carousel/Jordan1ElevateHigh.png",
+		"name": "NIKE AIR JORDAN 1 ELEVATE HIGH",
+		"gender": "Women's Shoes",
+		"price": "$185"
+	},
+	{
+		"id": 5,
+		"image": "shoes-carousel/Jordan7RetroBBS.png",
+		"name": "NIKE AIR JORDAN 7 RETRO BBS",
+		"gender": "Women's Shoes",
+		"price": "$270"
+	},
+	{
+		"id": 6,
+		"image": "shoes-carousel/Jordan200E.png",
+		"name": "NIKE AIR JORDAN 200E",
+		"gender": "Women's Shoes",
+		"price": "$120"
+	},
+	{
+		"id": 7,
+		"image": "shoes-carousel/Jordan1Take4.png",
+		"name": "NIKE AIR JORDAN 1 TAKE 4",
+		"gender": "Women's Shoes",
+		"price": "$135"
+	},
+	{
+		"id": 8,
+		"image": "shoes-carousel/Jordanseries05.png",
+		"name": "NIKE AIR JORDAN SERIES .05 LOW",
+		"gender": "Women's Shoes",
+		"price": "$120"
+	}
+]
