@@ -9,8 +9,8 @@ export default function BtnSlider({ direction, moveSlide }) {
 			onClick={moveSlide}
 			className={
 				direction === "next"
-					? "w-[60px] h-[60px] rounded-full bg-[#f1f1f1] border border-black absolute flex items-center justify-center cursor-pointer top-1/2 right-5 translate-btnSlider"
-					: "w-[60px] h-[60px] rounded-full bg-[#f1f1f1] border border-black absolute flex items-center justify-center cursor-pointer top-1/2 left-5 translate-btnSlider"
+					? "md:w-[60px] w-[50px] md:h-[60px] h-[50px] rounded-full bg-[#f1f1f1] border border-black absolute flex items-center justify-center cursor-pointer top-1/2 md:right-5 right-3 translate-btnSlider"
+					: "md:w-[60px] w-[50px] md:h-[60px] h-[50px] rounded-full bg-[#f1f1f1] border border-black absolute flex items-center justify-center cursor-pointer top-1/2 md:left-5 left-3 translate-btnSlider"
 			}
 		>
 			<img

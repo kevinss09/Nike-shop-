@@ -9,63 +9,89 @@ import Footer from "../parts/Footer";
 
 export default function Bag() {
 	return (
-		<section className="Bag min-h-screen px-[70px]">
+		<section className="Bag min-h-screen md:px-[70px]">
 			<Header />
-			<div className="bg-[#FAFAFA] h-[60px] mx-[-70px]"></div>
-			<div className="mt-[70px] Bag-Content gap-[50px]">
-				<div className="col-span-1">
+			<div className="bg-[#FAFAFA] h-[60px] md:mx-[-70px]"></div>
+			<div className="mt-[70px] Bag-Content gap-[50px] md:mx-0 mx-5">
+				<div className="col-span-1 text-center md:text-left">
 					<h1 className="font-semibold text-3xl">BAG</h1>
-					<div className="Shoes-1 flex-col">
-						<div className="flex flex-row mt-[50px]">
-							<img src={Shoes1} alt="" className="mr-10" />
-							<div className="flex flex-col justify-between">
-								<h1 className="font-medium text-2xl tracking-wide">
+					<div className="Shoes-1 flex-col mt-[50px]">
+						<div className="flex flex-col md:flex-row ">
+							<div className="flex items-center justify-center">
+								<img
+									src={Shoes1}
+									alt=""
+									className="md:mr-10 md:h-auto md:w-auto w-[300px]"
+								/>
+							</div>
+							<div className="flex flex-col justify-between md:mt-0 mt-7">
+								<h1 className="font-semibold md:font-medium text-3xl md:text-2xl tracking-wide">
 									Nike Air Jordan 1 High Mocha
 								</h1>
-								<h3 className="font-normal text-xl text-[#BEBEBE]">
+								<h3 className="font-normal text-xl text-[#BEBEBE] md:mt-0 mt-3">
 									Men's Shoes
 								</h3>
-								<h1 className="font-normal text-2xl tracking-wide">$295</h1>
-								<h3 className="font-normal">Size: M 11</h3>
+								<h1 className="font-normal text-2xl tracking-wide md:mt-0 mt-3">
+									$295
+								</h1>
+								<h3 className="font-normal md:mt-0 mt-3">Size: M 11</h3>
 							</div>
 						</div>
 						<div className="border-[0.5px] border-[#D9D9D9] w-full mt-[30px]"></div>
 					</div>
-					<div className="Shoes-2 flex-col">
-						<div className="flex flex-row mt-[50px]">
-							<img src={Shoes2} alt="" className="mr-12" />
-							<div className="flex flex-col justify-between">
-								<h1 className="font-medium tracking-wide text-2xl">
+					<div className="Shoes-2 flex-col mt-[50px]">
+						<div className="flex flex-col md:flex-row">
+							<div className="flex items-center justify-center">
+								<img
+									src={Shoes2}
+									alt=""
+									className="md:mr-10 md:h-auto md:w-auto w-[300px]"
+								/>
+							</div>
+							<div className="flex flex-col justify-between md:mt-0 mt-7">
+								<h1 className="font-semibold md:font-medium text-3xl md:text-2xl tracking-wide">
 									Nike Air Jordan 1 Acclimate Chutney
 								</h1>
-								<h3 className="font-normal text-xl text-[#BEBEBE]">
+								<h3 className="font-normal text-xl text-[#BEBEBE] md:mt-0 mt-3">
 									Women's Shoes
 								</h3>
-								<h1 className="font-normal text-2xl tracking-wide">$210</h1>
-								<h3 className="font-normal">Size: W 9</h3>
+								<h1 className="font-normal text-2xl tracking-wide md:mt-0 mt-3">
+									$210
+								</h1>
+								<h3 className="font-normal md:mt-0 mt-3">Size: W 9</h3>
 							</div>
 						</div>
 						<div className="border-[0.5px] border-[#D9D9D9] w-full mt-[30px]"></div>
 					</div>
-					<div className="Shoes-2 flex-col">
-						<div className="flex flex-row mt-[50px]">
-							<img src={Shoes3} alt="" className="mr-10" />
-							<div className="flex flex-col justify-between">
-								<h1 className="font-medium tracking-wide text-2xl">
+					<div className="Shoes-3 flex-col mt-[50px]">
+						<div className="flex md:flex-row flex-col">
+							<div className="flex items-center justify-center">
+								<img
+									src={Shoes3}
+									alt=""
+									className="md:mr-10 md:h-auto md:w-auto w-[300px]"
+								/>
+							</div>
+							<div className="flex flex-col justify-between md:mt-0 mt-7">
+								<h1 className="font-semibold md:font-medium text-3xl md:text-2xl tracking-wide">
 									Nike Air Jordan 1 Gorge Green
 								</h1>
-								<h3 className="font-normal text-xl text-[#BEBEBE]">
+								<h3 className="font-normal text-xl text-[#BEBEBE] md:mt-0 mt-3">
 									Men's Shoes
 								</h3>
-								<h1 className="font-normal text-2xl tracking-wide">$220</h1>
-								<h3 className="font-normal">Size: M 11</h3>
+								<h1 className="font-normal text-2xl tracking-wide md:mt-0 mt-3">
+									$220
+								</h1>
+								<h3 className="font-normal md:mt-0 mt-3">Size: M 11</h3>
 							</div>
 						</div>
 						<div className="border-[0.5px] border-[#D9D9D9] w-full mt-[30px]"></div>
 					</div>
 				</div>
-				<div className="col-span-1 flex flex-col">
-					<h1 className="font-semibold text-3xl">SUMMARY</h1>
+				<div className="col-span-1 flex flex-col md:mt-0 mt-10">
+					<h1 className="font-semibold text-3xl text-center md:text-left">
+						SUMMARY
+					</h1>
 					<div className="mt-[50px] flex flex-col">
 						<div className="flex flex-row items-center justify-between">
 							<h1 className="font-light text-2xl tracking-wide">Subtotal</h1>
@@ -98,8 +124,10 @@ export default function Bag() {
 					</div>
 				</div>
 			</div>
-			<div className="Might-Also-Like mt-[70px]">
-				<h1 className="font-semibold text-4xl">You might also like</h1>
+			<div className="Might-Also-Like mt-[70px] md:mb-0 mb-36">
+				<h1 className="font-medium md:font-semibold text-center text-3xl md:text-4xl">
+					YOU MIGHT ALSO LIKE
+				</h1>
 				<div className="mt-20">
 					<Carousel />
 				</div>

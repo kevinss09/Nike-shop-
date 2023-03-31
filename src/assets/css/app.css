@@ -9,12 +9,12 @@
 
 .soccer-club {
 	background-image: url("../images/soccer-club.png");
-	height: 330px;
+	height: 180px;
 }
 
 .basketball-club {
 	background-image: url("../images/basketball-club.png");
-	height: 330px;
+	height: 180px;
 }
 
 .women-main-picture {
@@ -26,29 +26,33 @@
 	height: 740px;
 }
 
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+
 .women-soccer-club {
 	background-image: url(../images/Women-soccer-img.png);
-	height: 330px;
+	height: 180px;
 }
 .women-basketball-club {
 	background-image: url(../images/women-running-img.png);
-	height: 330px;
+	height: 180px;
 }
 
 .Detail-content {
-	display: grid;
-	grid-template-columns: 1fr 4fr 4fr;
+	display: flex;
+	flex-direction: column;
 }
 
-.Bag-Content {
+/* .Bag-Content {
 	display: grid;
 	grid-template-columns: 3fr 2fr;
-}
+} */
 
-.Explore-Content {
+/* .Explore-Content {
 	display: grid;
 	grid-template-columns: 1fr 7fr;
-}
+} */
 .header {
 	display: unset;
 }
@@ -59,6 +63,51 @@
 	top: 0;
 }
 
-.translate-btnSlider {
-	transform: translateY(-80%);
+.Detail ul li::before {
+	color: black;
 }
+
+@media screen and (min-width: 768px) {
+	.translate-btnSlider {
+		transform: translateY(-80%);
+	}
+	.soccer-club {
+		background-image: url("../images/soccer-club.png");
+		height: 330px;
+	}
+	.basketball-club {
+		background-image: url("../images/basketball-club.png");
+		height: 330px;
+	}
+	.women-soccer-club {
+		background-image: url(../images/Women-soccer-img.png);
+		height: 330px;
+	}
+	.women-basketball-club {
+		background-image: url(../images/women-running-img.png);
+		height: 330px;
+	}
+	.Detail-content {
+		display: grid;
+		grid-template-columns: 1fr 4fr 4fr;
+	}
+	.Bag-Content {
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+	}
+	.Explore-Content {
+		display: grid;
+		grid-template-columns: 1fr 7fr;
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav-call {
+		display: none;
+	}
+	.right-side {
+		transition-property: all;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 300ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+	}
+} ;

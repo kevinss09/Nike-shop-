@@ -15,7 +15,7 @@ export default function Carousel({ Path }) {
 
 	return (
 		<motion.div
-			className="carousel cursor-grab overflow-hidden mr-[-70px] after:cursor-move"
+			className="carousel cursor-grab overflow-hidden md:mr-[-70px] after:cursor-move md:ml-0"
 			ref={carousel}
 		>
 			<motion.div
@@ -27,7 +27,7 @@ export default function Carousel({ Path }) {
 					? Shoes.map((shoes, index) => {
 							return (
 								<motion.div className="mr-[30px]" key={index}>
-									<motion.div className="min-h-[400px] min-w-[450px] bg-[#D9D9D9] relative flex items-end justify-center">
+									<motion.div className="md:min-h-[400px] md:min-w-[450px] min-h-[250px] min-w-[250px] bg-[#D9D9D9] relative flex items-end justify-center">
 										<div className="absolute h-[50px] w-[50px] rounded-full border-[1.5px] border-black top-5 right-5 flex items-center justify-center">
 											<img src={Love} alt="" className="h-[35px] w-[35px]" />
 										</div>
@@ -56,7 +56,7 @@ export default function Carousel({ Path }) {
 					: WomenShoes.map((shoes, index) => {
 							return (
 								<motion.div className="mr-[30px]" key={index}>
-									<motion.div className="min-h-[400px] min-w-[450px] bg-[#D9D9D9] relative flex items-end justify-center">
+									<motion.div className="md:min-h-[400px] md:min-w-[450px] min-h-[250px] min-w-[250px] bg-[#D9D9D9] relative flex items-end justify-center">
 										<div className="absolute h-[50px] w-[50px] rounded-full border-[1.5px] border-black top-5 right-5 flex items-center justify-center">
 											<img src={Love} alt="" className="h-[35px] w-[35px]" />
 										</div>

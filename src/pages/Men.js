@@ -5,37 +5,49 @@ import Footer from "../parts/Footer";
 import { Link, useLocation } from "react-router-dom";
 import Carousel from "../parts/Carousel";
 
+// mx-[-70px]
+// Trending this week
+// image
+// mens's collectin
+// nike-club-promotion
+
 export default function Men() {
 	const location = useLocation().pathname;
 	return (
-		<section className="Men min-h-screen px-[70px]">
+		<section className="Men min-h-screen md:px-[70px]">
 			<Header />
-			<div className="bg-[#FAFAFA] h-[60px] mx-[-70px]"></div>
-			<div className="bg-white flex flex-row justify-between items-center my-5 w-2/3">
+			<div className="bg-[#FAFAFA] h-[60px] md:mx-[-70px]"></div>
+			<div className="men-breadcrumb bg-white flex md:flex-row flex-col justify-between items-center my-5 md:w-2/3 md:mx-0 mx-5 overflow-hidden">
 				<h1 className="font-bold text-2xl">Men</h1>
-				<ul className="flex flex-row">
-					<li className="font-normal text-base tracking-wide mr-10">Sale</li>
-					<li className="font-normal text-base tracking-wide mr-10">Shoes</li>
-					<li className="font-normal text-base tracking-wide mr-10">
+				<ul className="scroll flex flex-row md:w-auto md:mt-0 mt-4 items-center justify-between overflow-scroll whitespace-nowrap w-[300px]">
+					<li className="md:font-normal font-medium text-base tracking-wide md:mr-10 md:mx-0 mx-3">
+						Sale
+					</li>
+					<li className="md:font-normal font-medium text-base tracking-wide md:mr-10 md:mx-0 mx-3">
+						Shoes
+					</li>
+					<li className="md:font-normal font-medium text-base tracking-wide md:mr-10 md:mx-0 mx-3">
 						Clothing
 					</li>
-					<li className="font-normal text-base tracking-wide mr-10">
+					<li className="md:font-normal font-medium text-base tracking-wide md:mr-10 md:mx-0 mx-3">
 						Just Released
 					</li>
-					<li className="font-normal text-base tracking-wide">Best Seller</li>
+					<li className="md:font-normal font-medium text-base tracking-wide md:mr-10 md:mx-0 mx-3">
+						Best Seller
+					</li>
 				</ul>
 			</div>
-			<div className="men-main-picture mx-[-70px] bg-cover bg-no-repeat flex items-center justify-end">
-				<div className="mr-12 flex flex-col items-end justify-center">
-					<h1 className="text-6xl text-white font-extrabold text-right">
+			<div className="men-main-picture md:mx-[-70px] bg-cover bg-no-repeat flex items-center justify-end">
+				<div className="md:mr-12 flex flex-col md:items-end items-center justify-center md:mx-0 mx-5">
+					<h1 className="text-6xl text-white font-extrabold md:text-right text-center">
 						FIND YOUR <br /> ULTIMATE EDGE
 					</h1>
-					<h3 className="mt-12 font-light tracking-widest text-white text-2xl text-right">
+					<h3 className="mt-12 font-light tracking-widest text-white text-2xl md:text-right text-center">
 						Tap into tournament mode with <br /> technical apparel that brings
 						out <br /> your best game
 					</h3>
 					<Link
-						className="mt-12 font-light tracking-wider text-lg py-3 px-7 bg-white rounded-xl"
+						className="mt-12 font-light tracking-wider text-lg py-3 md:px-7 px-12 bg-white rounded-xl"
 						to="/Explore"
 					>
 						Shop now
@@ -43,19 +55,23 @@ export default function Men() {
 				</div>
 			</div>
 			<div className="trending-this-week mt-20">
-				<h1 className="font-semibold text-4xl mb-20">Trending this week</h1>
+				<h1 className="font-semibold md:text-4xl text-3xl mb-20 text-center md:tracking-normal tracking-wider">
+					TRENDING THIS WEEK
+				</h1>
 				<Carousel Path={location} />
 			</div>
 			<div className="coaching-wellness mb-20">
-				<h2 className="font-semibold text-4xl mt-20">Coaching and Wellness</h2>
-				<div className="w-full mt-[50px] grid grid-cols-2 gap-[30px]">
-					<div className="col-span-1 soccer-club bg-cover bg-no-repeat relative">
-						<button className="absolute left-[30px] bottom-[30px] py-3 px-7 font-semibold text-base bg-white rounded-full hover:bg-[#1B1818] hover:text-white transition duration-300">
+				<h2 className="font-semibold md:text-4xl text-3xl text-center md:tracking-normal tracking-wider md:mt-20 mt-10">
+					COACHING AND WELLNESS
+				</h2>
+				<div className="w-full mt-[50px] grid md:grid-cols-2 gap-[30px]">
+					<div className="col-span-1 soccer-club bg-contain bg-no-repeat relative mr-5 ml-6 md:mr-0 md:ml-0">
+						<button className="absolute left-[30px] bottom-[30px] md:py-3 md:px-7 py-3 px-4 md:font-semibold font-medium md:text-base text-sm bg-white rounded-full hover:bg-[#1B1818] hover:text-white transition duration-300">
 							Nike Soccer Club
 						</button>
 					</div>
-					<div className="col-span-1 basketball-club bg-cover bg-no-repeat relative">
-						<button className="absolute left-[30px] bottom-[30px] py-3 px-7 font-semibold text-base bg-white rounded-full hover:bg-[#1B1818] hover:text-white transition duration-300">
+					<div className="col-span-1 basketball-club bg-contain bg-no-repeat relative mr-5 ml-6 md:mr-0 md:ml-0">
+						<button className="absolute left-[30px] bottom-[30px] md:py-3 md:px-7 py-3 px-4 md:font-semibold font-medium md:text-base text-sm bg-white rounded-full hover:bg-[#1B1818] hover:text-white transition duration-300">
 							Nike Basketball Club
 						</button>
 					</div>

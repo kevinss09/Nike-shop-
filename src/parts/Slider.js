@@ -26,15 +26,15 @@ export default function Slider() {
 	};
 
 	return (
-		<div className="container-slider w-1/2 relative overflow-hidden shadow-md">
+		<div className="container-slider md:w-1/2 overflow-hidden shadow-md md:relative flex items-center justify-center  md:mt-0 mt-[7.5rem] w-full">
 			{dataSlider.map((shoes, index) => {
 				return (
 					<div
 						key={shoes.id}
 						className={
 							slideIndex === index + 1
-								? "slide w-full h-full absolute opacity-1 ease-in-out "
-								: "slide w-full h-full absolute opacity-0 ease-in-out"
+								? "slide md:w-full md:h-full absolute opacity-1 ease-in-out w-[250px] h-[200px]"
+								: "slide md:w-full md:h-full absolute opacity-0 ease-in-out w-[250px] h-[200px]"
 						}
 					>
 						<img
@@ -45,8 +45,10 @@ export default function Slider() {
 					</div>
 				);
 			})}
-			<BtnSlider moveSlide={nextSlide} direction={"next"} />
-			<BtnSlider moveSlide={prevSlide} direction={"prev"} />
+			<div className="absolute flex justify-between w-full">
+				<BtnSlider moveSlide={nextSlide} direction={"next"} />
+				<BtnSlider moveSlide={prevSlide} direction={"prev"} />
+			</div>
 		</div>
 	);
 }

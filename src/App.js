@@ -14,11 +14,13 @@ import Detail from "./pages/Detail";
 import Bag from "./pages/Bag";
 import Explore from "./pages/Explore";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./helpers/hooks/ScrollToTop";
 
 function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
+				<ScrollToTop />
 				<Routes>
 					<Route exact path="/" element={<Home />} />
 					<Route exact path="/Men" element={<Men />} />
