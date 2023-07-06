@@ -8,14 +8,14 @@ export default function Header() {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<nav className="header relative z-40 top-0 left-0 lg:flex flex-col">
+		<nav className="header relative z-20 top-0 left-0 lg:flex flex-col">
 			<div className="header-pickup bg-[#FAFAFA] md:mx-[-70px]">
 				<h1 className="text-center py-5">
 					Buy online, pick up in store-it’s quick and convenience.{" "}
 					<span className="underline">Pickup options</span>
 				</h1>
 			</div>
-			<div className="header-navbar bg-white md:flex md:flex-row md:justify-between md:items-center md:my-1 md:py-0 md:px-0 py-3 px-4 w-full">
+			<div className="header-navbar bg-white md:flex md:flex-row md:justify-between md:items-center md:my-1 md:py-0 md:px-0 py-3 px-4 w-full flo">
 				<div className="left-side justify-end md:justify-between flex items-center">
 					<Link to="/">
 						<img src={NikeImg} alt="WASUp" className="h-[60px] w-[60px]" />
