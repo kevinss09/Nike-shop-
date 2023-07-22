@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../parts/Header";
 import RightArrow from "../assets/images/right-arrow-50.png";
 import MidBerry from "../assets/images/mid-berry-black-5.png";
@@ -16,8 +16,10 @@ import NikeLarge from "../assets/images/nike-large.png";
 import { Link } from "react-router-dom";
 import useScrollAnchor from "../helpers/hooks/useScrollAnchor";
 import Slider from "../parts/Slider";
+import useShop from "../helpers/reducer/ShopContext";
 
 export default function Home() {
+	const { addToCart, removeFromCart } = useShop();
 	useScrollAnchor();
 	return (
 		<section className="Home min-h-screen md:px-[70px]">
@@ -85,23 +87,31 @@ export default function Home() {
 				<div className="grid md:grid-cols-3 grid-rows-2 gap-16 mt-[100px]">
 					{ShoesData.map((shoes, index) => {
 						return (
-							<div className="h-full w-full" key={index}>
-								<img
-									src={shoes.imgSource}
-									alt=""
-									className="bg-[#D9D9D9] rounded-lg md:h-[270px] w-[387px] h-[250px]"
-								/>
-								<div className="flex flex-col mt-[15px]">
-									<h3 className="w-3/4 font-bold text-base tracking-wider leading-normal">
-										{shoes.name}
-									</h3>
-									<h3 className="font-medium text-base text-[#70706F] mt-1">
-										{shoes.gender}
-									</h3>
-									<h3 className="font-semibold text-base tracking-wider mt-1">
-										{shoes.price}
-									</h3>
-								</div>
+							<div className="h-full w-full relative" key={index}>
+								<Link to="/Detail">
+									<img
+										src={shoes.imgSource}
+										alt=""
+										className="bg-[#D9D9D9] rounded-lg md:h-[270px] w-[387px] h-[250px]"
+									/>
+									<div className="flex flex-col mt-[15px]">
+										<h3 className="w-3/4 font-bold text-base tracking-wider leading-normal">
+											{shoes.name}
+										</h3>
+										<h3 className="font-medium text-base text-[#70706F] mt-1">
+											{shoes.gender}
+										</h3>
+										<h3 className="font-semibold text-base tracking-wider mt-1">
+											${shoes.price}
+										</h3>
+									</div>
+								</Link>
+								<button
+									className="absolute top-3 right-4 z-30 border border-black rounded-full flex items-center justify-center"
+									onClick={() => addToCart(shoes)}
+								>
+									<div className="text-lg px-2">+</div>
+								</button>
 							</div>
 						);
 					})}

@@ -47,7 +47,7 @@ export default function Carousel({ Path }) {
 											</h3>
 										</div>
 										<div className="right w-1/2 font-bold text-xl text-right mr-1">
-											{shoes.price}
+											${shoes.price}
 										</div>
 									</div>
 								</motion.div>
@@ -76,7 +76,7 @@ export default function Carousel({ Path }) {
 											</h3>
 										</div>
 										<div className="right w-1/2 font-bold text-xl text-right mr-1">
-											{shoes.price}
+											${shoes.price}
 										</div>
 									</div>
 								</motion.div>

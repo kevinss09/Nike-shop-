@@ -4,41 +4,41 @@
 		"imgSource": "shoes/air-jordan-1-hi-85-black-white-BQ4422-001-2 copy.png",
 		"name": "NIKE AIR JORDAN 1 HIGH 85 BLACK WHITE",
 		"gender": "Men's Shoes",
-		"price": "$295"
+		"price": 295
 	},
 	{
 		"id": 2,
 		"imgSource": "shoes/Air-Jordan-1-Gorge-Green-DZ5485-303-1 copy.png",
 		"name": "NIKE AIR JORDAN 1 OG GORGE GREEN",
 		"gender": "Men's Shoes",
-		"price": "$220"
+		"price": 220
 	},
 	{
 		"id": 3,
 		"imgSource": "shoes/air-jordan-1-high-taxi-555088-711-lateral.png",
 		"name": "NIKE AIR JORDAN 1 OG HIGH TAXI",
 		"gender": "Men's Shoes",
-		"price": "$250"
+		"price": 250
 	},
 	{
 		"id": 4,
 		"imgSource": "shoes/air-jordan-1-retro-high-og-atmosphere-FD2596-600-release-date-7 copy.png",
 		"name": "NIKE AIR JORDAN 1 OG ATMOSPHERE",
 		"gender": "Men's Shoes",
-		"price": "$315"
+		"price": 315
 	},
 	{
 		"id": 5,
 		"imgSource": "shoes/AirJordan1ChicagopLostAndFound.png",
 		"name": "NIKE AIR JORDAN 1 CHICAGO LOST AND FOUND",
 		"gender": "Men's Shoes",
-		"price": "$315"
+		"price": 315
 	},
 	{
 		"id": 6,
 		"imgSource": "shoes/air-jordan-1-retro-high-og-elephant-print-DZ5485-052-4 copy.png",
 		"name": "NIKE AIR JORDAN 1 OG ELEMENT WHITE CEMENT",
 		"gender": "Men's Shoes",
-		"price": "$225"
+		"price": 315
 	}
 ]

@@ -3,7 +3,6 @@ import leftArrow from "../assets/icons/left-arrow.png";
 import rightArrow from "../assets/icons/right-arrow.png";
 
 export default function BtnSlider({ direction, moveSlide }) {
-	console.log(direction, moveSlide);
 	return (
 		<button
 			onClick={moveSlide}

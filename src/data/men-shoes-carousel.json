@@ -4,69 +4,69 @@
 		"image": "shoes-carousel/Jordan1DarkMocha.png",
 		"name": "NIKE AIR JORDAN 1 DARK MOCHA",
 		"gender": "Men's Shoes",
-		"price": "$295"
+		"price": 295
 	},
 	{
 		"id": 2,
 		"image": "shoes-carousel/Jordan1HighTaxi.png",
 		"name": "NIKE AIR JORDAN 1 OG HIGH TAXI",
 		"gender": "Men's Shoes",
-		"price": "$250"
+		"price": 250
 	},
 	{
 		"id": 3,
 		"image": "shoes-carousel/Jordan1GorgeGreen.png",
 		"name": "NIKE AIR JORDAN 1 GORGE GREEN",
 		"gender": "Men's Shoes",
-		"price": "$220"
+		"price": 220
 	},
 	{
 		"id": 4,
 		"image": "shoes-carousel/Jordan1Chicago.png",
 		"name": "NIKE AIR JORDAN 1 CHICAGO LOST AND FOUND",
 		"gender": "Men's Shoes",
-		"price": "$389"
+		"price": 389
 	},
 	{
 		"id": 5,
 		"image": "shoes-carousel/Jordan1Rebellionaire.png",
 		"name": "NIKE AIR JORDAN 1 OG REBELLIONARE",
 		"gender": "Men's Shoes",
-		"price": "$312"
+		"price": 312
 	},
 	{
 		"id": 6,
 		"image": "shoes-carousel/Jordan1OGHyperRoyal.png",
 		"name": "NIKE AIR JORDAN 1 OG HYPER ROYAL",
 		"gender": "Men's Shoes",
-		"price": "$365"
+		"price": 365
 	},
 	{
 		"id": 7,
 		"image": "shoes-carousel/Jordan1GymRedBlack.png",
 		"name": "NIKE AIR JORDAN 1 GYM RED AND BLACK",
 		"gender": "Men's Shoes",
-		"price": "$401"
+		"price": 401
 	},
 	{
 		"id": 8,
 		"image": "shoes-carousel/Jordan1Atmosphere.png",
 		"name": "NIKE AIR JORDAN 1 OG ATMOSPHERE",
 		"gender": "Men's Shoes",
-		"price": "$295"
+		"price": 295
 	},
 	{
 		"id": 9,
 		"image": "shoes-carousel/Jordan1HiBlackWhite.png",
 		"name": "NIKE AIR JORDAN 1 OG RETRO HIGH 85",
 		"gender": "Men's Shoes",
-		"price": "$419"
+		"price": 419
 	},
 	{
 		"id": 10,
 		"image": "shoes-carousel/Jordan1WhiteCement.png",
 		"name": "NIKE AIR JORDAN 1 OG WHITE CEMENT",
 		"gender": "Men's Shoes",
-		"price": "$225"
+		"price": 225
 	}
 ]

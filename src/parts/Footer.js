@@ -66,7 +66,7 @@ export default function Footer({ Path }) {
 				<Link
 					className="px-16 py-2 bg-white font-light text-xl tracking-wider relative md:mt-0 mt-12"
 					to="/contact"
-					onclick="window.location.href='#top'"
+					onClick="window.location.href='#top'"
 				>
 					<div className="absolute w-full h-full left-2 right-2 border border-white "></div>
 					Join us

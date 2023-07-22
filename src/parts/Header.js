@@ -56,7 +56,7 @@ export default function Header() {
 						</Link>
 					</li>
 					<li className="nav-item mx-4 my-4 pt-[1rem] pb-0 md:py-2 lg:my-0 lg:border-0 border-t">
-						<Link className="px-5 md:text-base text-lg" to="/detail">
+						<Link className="px-5 md:text-base text-lg" to="/about">
 							About
 						</Link>
 					</li>
