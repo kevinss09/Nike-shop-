@@ -77,7 +77,7 @@ export default function Explore() {
 											</h3>
 										</div>
 										<div className="right md:w-1/2 font-bold text-xl md:text-right md:mt-0 mt-2 mr-1">
-											{shoes.price}
+											${shoes.price}
 										</div>
 									</div>
 								</motion.div>

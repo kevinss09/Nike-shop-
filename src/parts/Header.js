@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import NikeImg from "../assets/images/nike-50.png";
 import ShoppingCart from "../assets/images/shopping-cart-30.png";
 import { FiMenu, FiX } from "react-icons/fi";
+import useShop from "../helpers/reducer/ShopContext";
 
 export default function Header() {
 	const [toggle, setToggle] = useState(false);
+	const { shoes } = useShop();
 
 	return (
 		<nav className="header relative z-20 top-0 left-0 lg:flex flex-col">
@@ -79,8 +81,8 @@ export default function Header() {
 					</li>
 				</ul>
 				<span className="flex flex-row items-center justify-center nav-call">
-					<Link to="/bag">
-						<img src={ShoppingCart} alt="" className="h-[30px] w-[30px] mr-5" />
+					<Link to="/bag" className="h-[30px] w-[30px] mr-5">
+						<img src={ShoppingCart} alt="" className="" />
 					</Link>
 					<Link
 						className="text-black bg-[#FAFAFA] px-7 py-2 rounded-md text-base border border-black"

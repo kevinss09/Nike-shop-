@@ -33,8 +33,8 @@ export default function Slider() {
 						key={shoes.id}
 						className={
 							slideIndex === index + 1
-								? "slide md:w-full md:h-full absolute opacity-1 ease-in-out w-[250px] h-[200px]"
-								: "slide md:w-full md:h-full absolute opacity-0 ease-in-out w-[250px] h-[200px]"
+								? "slide md:w-3/4 md:h-full absolute opacity-1 ease-in-out w-[250px] h-[200px]"
+								: "slide md:w-3/4 md:h-full absolute opacity-0 ease-in-out w-[250px] h-[200px]"
 						}
 					>
 						<img

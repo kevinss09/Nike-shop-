@@ -90,13 +90,13 @@ export default function Women() {
 						</h3>
 					</div>
 					<div className="col-span-1 h-[440px] flex flex-col bg-[#D9D9D9] justify-between items-center cursor-pointer md:mx-0 mx-5">
-						<img src={HoodieImg} alt="" className="mt-10" />
+						<img src={HoodieImg} alt="" className="mt-5" />
 						<h3 className="font-bold text-lg underline tracking-wider text-center my-5">
 							HOODIE
 						</h3>
 					</div>
 					<div className="col-span-1 md:h-[440px] h-[500px] flex flex-col bg-[#D9D9D9] md:justify-between justify-center items-center cursor-pointer md:mx-0 mx-5">
-						<img src={LoungeWear} alt="" className="mt-4 scale-90" />
+						<img src={LoungeWear} alt="" className="scale-75" />
 						<h3 className="font-bold text-lg underline tracking-wider text-center mb-5">
 							LOUNGEWEAR
 						</h3>
@@ -114,14 +114,14 @@ export default function Women() {
 					YOUR SEASONAL SHOP
 				</h2>
 				<div className="w-full mt-[50px] grid md:grid-cols-2 gap-[30px]">
-					<div className="col-span-1 women-soccer-club bg-contain bg-no-repeat relative mr-5 ml-6 md:mr-0 md:ml-0">
-						<button className="absolute left-[30px] bottom-[30px] md:py-3 md:px-7 py-3 px-4 md:font-semibold font-medium md:text-base text-sm bg-white rounded-full hover:bg-[#1B1818] hover:text-white transition duration-300">
+					<div className="col-span-1 women-soccer-club bg-contain bg-no-repeat bg-center relative mr-5 ml-6 md:mr-0 md:ml-0 flex justify-center items-center">
+						<button className="absolute right-[150px] bottom-[30px] md:py-3 md:px-7 py-3 px-4 md:font-semibold font-medium md:text-base text-sm bg-white rounded-full hover:bg-[#1B1818] hover:text-white transition duration-300">
 							Nike Soccer Club
 						</button>
 					</div>
-					<div className="col-span-1 women-basketball-club bg-contain bg-no-repeat relative mr-5 ml-6 md:mr-0 md:ml-0">
-						<button className="absolute left-[30px] bottom-[30px] md:py-3 md:px-7 py-3 px-4 md:font-semibold font-medium md:text-base text-sm bg-white rounded-full hover:bg-[#1B1818] hover:text-white transition duration-300">
-							Nike Running Club
+					<div className="col-span-1 women-basketball-club bg-contain bg-no-repeat bg-center relative mr-5 ml-6 md:mr-0 md:ml-0 flex justify-center items-center">
+						<button className="absolute right-[150px] bottom-[30px] md:py-3 md:px-7 py-3 px-4 md:font-semibold font-medium md:text-base text-sm bg-white rounded-full hover:bg-[#1B1818] hover:text-white transition duration-300">
+							Nike Basketball Club
 						</button>
 					</div>
 				</div>
